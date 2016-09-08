@@ -142,12 +142,12 @@ def main(dev, csound_file):
 
 	MASK = (1<<11)-1
 	while True:
-        cs = csnd6.Csound()
-        res = cs.Compile(csound_file)
-        if res == 0:
-            perf = csnd6.CsoundPerformanceThread(cs)
-            perf.Play()
-            last = now
+		cs = csnd6.Csound()
+		res = cs.Compile(csound_file)
+		if res == 0:
+			perf = csnd6.CsoundPerformanceThread(cs)
+			perf.Play()
+			last = now
 			#adc = s.read_adc()
 			#s.sync()
 			#adc = s.get(0, 64)
