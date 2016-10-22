@@ -47,9 +47,8 @@ gkled1 = k1
 endin
 
 instr 1 
-	#include "includes/adc_channels.inc"
-	#include "includes/gpio_channels.inc"
-	#include "includes/switch2led.inc"
+	#include "../includes/adc_channels.inc"
+	#include "../includes/gpio_channels.inc"
 
 	aL, aR ins
 
