@@ -106,6 +106,7 @@ opcode	Reverse, aa, aaKk				;nb. CAPITAL K CREATE A K-RATE VARIABLE THAT HAS A U
 	aoutR ntrpol ainR, arevR, kdrywet
 
 
+
 	xout	aoutL, aoutR			;SEND AUDIO BACK TO CALLER INSTRUMENT. APPLY AMPLITUDE ENVELOPE TO PREVENT CLICKS.
 endop
 

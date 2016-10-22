@@ -47,18 +47,8 @@ gkled1 = k1
 endin
 
 instr 1 
-<<<<<<< HEAD
-	#include "../includes/adc_channels.inc"
-	#include "../includes/gpio_channels.inc"
-=======
-<<<<<<< HEAD
-	#include "includes/adc_channels.inc"
-	#include "includes/gpio_channels.inc"
-=======
-	#include "../includes/adc_channels.inc"
-	#include "../includes/gpio_channels.inc"
->>>>>>> b30e55d... include fix
->>>>>>> master
+	#include "../Includes/adc_channels.inc"
+	#include "../Includes/gpio_channels.inc"
 
 	aL, aR ins
 
