@@ -92,8 +92,8 @@ endop
 
 
 instr 1
-	#include "includes/adc_channels.inc"
-	#include "includes/gpio_channels.inc"
+	#include "../includes/adc_channels.inc"
+	#include "../includes/gpio_channels.inc"
 
 	iamp ampmidi 0.5
 	icps cpsmidi

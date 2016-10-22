@@ -1,3 +1,17 @@
+/* 	
+ ---------------------------------------------------------------
+ 	SimpleLooper.csd
+
+	A simple looper with rec/play, start/stop, reverse and speed controls. 
+	There is also an option wether to pass audio through at all times or not.
+
+	Author: Bernt Isak Wærstad
+
+	Date: 2016.09.21
+
+	Arguments: Rec/play toggle, Start/stop toggle, Clear (not in use), Speed, Reverse, Audio through
+ ---------------------------------------------------------------
+*/
 
 	giLiveSamplTableLen 	init 882000;
 	; empty table, size 882000 equals 20 seconds at 44.1kHz sr

@@ -137,8 +137,8 @@ endin
 
 
 instr 99
-	#include "includes/adc_channels.inc"
-	#include "includes/gpio_channels.inc"
+	#include "../includes/adc_channels.inc"
+	#include "../includes/gpio_channels.inc"
 
 	aL init 0
 	aR init 0

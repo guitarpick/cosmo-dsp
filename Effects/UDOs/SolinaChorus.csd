@@ -1,22 +1,30 @@
-/* Solina Chorus, based on Solina String Ensemble Chorus Module
+/* 
+ ---------------------------------------------------------------
+  Solina Chorus, based on Solina String Ensemble Chorus Module
   
-   based on:
+  based on:
 
-   J. Haible: Triple Chorus
-   http://jhaible.com/legacy/triple_chorus/triple_chorus.html
+  J. Haible: Triple Chorus
+  http://jhaible.com/legacy/triple_chorus/triple_chorus.html
 
-   Hugo Portillo: Solina-V String Ensemble
-   http://www.native-instruments.com/en/reaktor-community/reaktor-user-library/entry/show/4525/ 
+  Hugo Portillo: Solina-V String Ensemble
+  http://www.native-instruments.com/en/reaktor-community/reaktor-user-library/entry/show/4525/ 
 
-   Parabola tabled shape borrowed from Iain McCurdy delayStereoChorus.csd:
-   http://iainmccurdy.org/CsoundRealtimeExamples/Delays/delayStereoChorus.csd
+  Parabola tabled shape borrowed from Iain McCurdy delayStereoChorus.csd:
+  http://iainmccurdy.org/CsoundRealtimeExamples/Delays/delayStereoChorus.csd
 
-   Author: Steven Yi
-   Date: 2016.05.22
+  Author: Steven Yi
+  Date: 2016.05.22
 
-   Stereo version by Kevin Welsh (tgrey)
+  Stereo version: Kevin Welsh (tgrey)
 
-   */
+  COSMO version: Bernt Isak Wærstad
+  Date: 2016.09.21
+
+  Arguments: LFO Freq 1, LFO Amp 1, LFO Freq 2, LFO Amp 2, (Stereo mode)
+
+ ---------------------------------------------------------------
+*/
 
 
 gi_solina_parabola ftgen 0, 0, 65537, 19, 0.5, 1, 180, 1 

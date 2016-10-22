@@ -1,3 +1,13 @@
+/* 	
+ ---------------------------------------------------------------
+	Wobble effect 
+
+	Author: Alex Hofmann
+	
+	COSMO version: Bernt Isak Wærstad
+	Date: 2016.09.21
+ ---------------------------------------------------------------
+*/
 
 opcode Wobble, aa, aakk
 
